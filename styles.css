@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial,sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    background-color:rgba(255,255,255,0.1);
+    height: 100px;
+    
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-top:40px;
+    font-size: 20px;
+
+}
+.logo{
+    padding:20px 0 0 50px;
+    user-select: none;
+
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap:30px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: #817d7d;
+    transition: color 0.3s ease;
+}
+.navlinks li a:hover{
+    color:#2b9aff
+}
+.username{
+    margin-top:0 10px;
+    margin-right: 80px;
+    background-color:rgb(205, 250, 252,1);
+    padding: 20px;
+    border-radius: 8px;
+    color: #37cfe9;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+.username a{
+    text-decoration: none;
+}
+.username:hover{
+ transform: translateY(-2px);
+ color: #2b9aff;
+
+}
+
+
+.main-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 60px;
+    padding: 0 50px;
+    background-color: #fff;
+
+    
+}
+.left-section{
+    width: 45%;
+}
+.left-section h1{
+    color: #676464;
+    font-size: 2.6rem;
+    padding-left:30px;
+    line-height: 1.4;
+    font-weight: bold;
+
+}
+
+.left-highlight{
+    color: #2b9aff;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom:20px;
+    padding-left:30px;
+    line-height:1.4;
+
+}
+
+.left-section p{
+    font-size:1.1rem;
+    color: #9ea2aa;
+    padding-left: 30px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+.primary-btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding:  25px 40px;
+    border-radius: 10px;
+    background-color: #2b9aff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform background-color 0.3s ease;
+
+}
+.primary-btn:hover{
+    transform: translateY(-2px);
+    background-color: #37cfe9;
+}
+
+.right-section{
+    width: 45%;
+    margin-right: 30px;
+}
+
