@@ -1,2 +1,2 @@
 # Laundary_service029
-this a project of is shoiw only some front page look like only basic  using HTML and CSS 
+this is a simple website that is build to show the laundary service front web using HTML and css for developing
